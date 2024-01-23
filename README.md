@@ -8,3 +8,6 @@ The program takes a matrix and runs 8 functions:
 - linearCombRows
 - rref
 - invert
+
+
+the program also has test cases for each function
