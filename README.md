@@ -2,7 +2,7 @@
 The program takes a matrix and performs eight functions:
 
 print: Displays the matrix.\n
-plus: Adds two matrices.
+plus: Adds two matrices.\n
 times: Multiplies two matrices.
 scalarTimesRow: Multiplies a matrix row by a scalar.
 switchRows: Switches two rows in the matrix.
