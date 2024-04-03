@@ -7,13 +7,16 @@ class MatrixMonday:
         if isinstance(self.m1, str):
             print(self.m1)
             return ()
-            print("The object is a string.")
-        for i in range(self.rows):
-            for j in range(self.columns):
-                if self.m1[i][j] == -0:
-                    self.m1[i][j] = 0
-                print(self.m1[i][j], end="\t")
-            print()
+        if len(self.m1[0])==1:
+            for number in self.m1:
+                print(number[0])
+        else:
+            for i in range(self.rows):
+                for j in range(self.columns):
+                    if self.m1[i][j] == -0:
+                        self.m1[i][j] = 0
+                    print(self.m1[i][j], end="\t")
+                print()
     def set_entry(self, row, column, value):
         self.m1[row][column] = value
     def get_entry(self, row, column):
